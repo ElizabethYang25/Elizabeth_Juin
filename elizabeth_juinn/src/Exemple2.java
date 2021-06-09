@@ -17,7 +17,7 @@ public class Exemple2 {
 		BufferedReader entree;
 		char c;
 			
-			ficALire=new FileReader("monFichier.txt");
+			ficALire=new FileReader("MonFichier.txt");
 			entree = new BufferedReader(ficALire);
 			c=(char) entree.read();
 			System.out.print(c);;
